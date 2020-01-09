@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /docsy-jekyll/about/
+permalink: /about/
 ---
 
 # About
