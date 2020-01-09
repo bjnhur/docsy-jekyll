@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: {{ site.baseurl }}/about/
+permalink: /docsy-jekyll/about/
 ---
 
 # About
