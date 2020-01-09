@@ -6,6 +6,7 @@ permalink: /docs/
 
 # Documentation
 
+실시간 변경 사항 확인
 Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
 particular page.
 
