@@ -6,6 +6,7 @@ permalink: /
 
 # Welcome to Docsy Jekyll
 수정하고 몇초만에 바뀌는 지 확인해 보자.
+ㅋㅋ 1~2초만에 바뀌네.
 
 This is a starter template for a docsy jekyll theme.
 
