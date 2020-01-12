@@ -38,6 +38,16 @@
 </div>
                 </div>
                 <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+                    <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+                        <ol class="breadcrumb spb-1">
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+                            </li>
+                        </ol>
+                    </nav>
 <div>
     <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -49,16 +59,6 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-                    <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
-                        <ol class="breadcrumb spb-1">
-                            <li class="breadcrumb-item active" aria-current="page">
-                                <a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">
-                                <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-                            </li>
-                        </ol>
-                    </nav>
                     <div class="td-content">
                         {{ content }}
                         {% if section.links %}<div class="section-index">
