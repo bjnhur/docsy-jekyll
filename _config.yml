@@ -23,16 +23,16 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "/document" # the subpath of your site, e.g. /blog
 
 
 # This is mostly for testing
 #url: "https://devbj.com/docsy-jekyll" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/bjnhur/docs"
+repo: "https://github.com/bjnhur/document"
 github_user: "bjnhur"
-github_repo: "docs"
+github_repo: "document"
 
 # Optional
 twitter: BongjunHur
